@@ -22,20 +22,7 @@ HAL links.
 
 ## Retrieve the Entry Point [GET]
 
-+ Response 500 (application/json)
-    + Headers
-    
-            Link: <http:/api.gistfox.com/>;rel="self",<http:/api.gistfox.com/gists>;rel="gists",<http:/api.gistfox.com/authorization>;rel="authorization"
-
-    + Body
-
-            {
-                "_links": {
-                    "self": { "href": "/" },
-                    "gists": { "href": "/gists?{since}", "templated": true },
-                    "authorization": { "href": "/authorization"}
-                }
-            }
++ Response 500
 
 # Group Gist
 Gist-related resources of *Gist Fox API*.
